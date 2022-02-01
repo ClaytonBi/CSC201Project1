@@ -2,7 +2,7 @@ import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.io.*;
 
-public class Problem1 {
+public class Problem2 {
     public static void main(String [] args){
         ArrayList<Long> Snippet1_list = new ArrayList<>();
         ArrayList<Long> Snippet2_list = new ArrayList<>();
