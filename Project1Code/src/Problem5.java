@@ -22,6 +22,7 @@ public class Problem5 {
     public static void main(String[] args){
         int[] arrayInt = {33,23,22,21,30,10,9,8,7,6,3,2,1};
         System.out.println(findNumber(arrayInt, 3, 0, arrayInt.length-1));
+        //if the array is empty, arrayInt.length - 1 will be 0 and the method findNumber will directly return -1
         System.out.println(findNumber(arrayInt, -4, 0, arrayInt.length-1));
     }
 }
